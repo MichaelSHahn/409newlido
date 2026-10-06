@@ -15,11 +15,11 @@ const HERO_PHOTO = "images/hero.jpg";
 
 const GALLERY = [
   // —— Exterior ——
-  { src: "images/full/01.jpg", thumb: "images/thumbs/01.jpg", caption: "Driveway approach",        group: "exterior", size: "large" },
+  { src: "images/full/05.jpg", thumb: "images/thumbs/05.jpg", caption: "Front entry walk",          group: "exterior", size: "large" },
+  { src: "images/full/04.jpg", thumb: "images/thumbs/04.jpg", caption: "Front elevation",           group: "exterior", size: "wide" },
   { src: "images/full/02.jpg", thumb: "images/thumbs/02.jpg", caption: "Front exterior",            group: "exterior" },
   { src: "images/full/03.jpg", thumb: "images/thumbs/03.jpg", caption: "Front exterior",            group: "exterior" },
-  { src: "images/full/04.jpg", thumb: "images/thumbs/04.jpg", caption: "Front elevation",           group: "exterior", size: "wide" },
-  { src: "images/full/05.jpg", thumb: "images/thumbs/05.jpg", caption: "Front entry",               group: "exterior" },
+  { src: "images/full/01.jpg", thumb: "images/thumbs/01.jpg", caption: "Driveway approach",        group: "exterior" },
 
   // —— Entry, dining & living ——
   { src: "images/full/06.jpg", thumb: "images/thumbs/06.jpg", caption: "Entry hall",                group: "living" },
