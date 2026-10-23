@@ -98,7 +98,7 @@
     grid.innerHTML = "";
     visible = [];
     photos.forEach(function (p, i) {
-      if (activeGroup !== "all" && p.group !== activeGroup) return;
+      if (activeGroup !== "all" && p.group !== activeGroup && !(p.also || []).includes(activeGroup)) return;
       visible.push(i);
       var btn = doc.createElement("button");
       btn.type = "button";

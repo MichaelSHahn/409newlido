@@ -71,9 +71,9 @@ const GALLERY = [
   { src: "images/full/42.jpg", thumb: "images/thumbs/42.jpg", caption: "Upstairs bath",             group: "upstairs" },
   { src: "images/full/43.jpg", thumb: "images/thumbs/43.jpg", caption: "Upstairs bath",             group: "upstairs" },
   { src: "images/full/44.jpg", thumb: "images/thumbs/44.jpg", caption: "Upstairs bath",             group: "upstairs" },
-  { src: "images/full/45.jpg", thumb: "images/thumbs/45.jpg", caption: "Upstairs bedroom",          group: "upstairs", size: "wide" },
-  { src: "images/full/46.jpg", thumb: "images/thumbs/46.jpg", caption: "Upstairs bedroom",          group: "upstairs" },
-  { src: "images/full/47.jpg", thumb: "images/thumbs/47.jpg", caption: "Upstairs bedroom",          group: "upstairs" },
+  { src: "images/full/45.jpg", thumb: "images/thumbs/45.jpg", caption: "Upstairs bedroom",          group: "upstairs", also: ["bedrooms"], size: "wide" },
+  { src: "images/full/46.jpg", thumb: "images/thumbs/46.jpg", caption: "Upstairs bedroom",          group: "upstairs", also: ["bedrooms"] },
+  { src: "images/full/47.jpg", thumb: "images/thumbs/47.jpg", caption: "Upstairs bedroom",          group: "upstairs", also: ["bedrooms"] },
 
   // —— Outdoor ——
   { src: "images/full/48.jpg", thumb: "images/thumbs/48.jpg", caption: "Patio",                     group: "outdoor" },
